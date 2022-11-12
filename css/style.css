@@ -24,6 +24,13 @@ body {
   letter-spacing: 0.03em;
 }
 
+.conteiner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  /* outline: 1px solid teal; */
+}
+
 button {
   cursor: pointer;
 }
@@ -49,11 +56,10 @@ button {
 }
 
 /* Навігація */
+
 .site-nav {
   color: var(--title);
-
   text-decoration: none;
-
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
@@ -100,6 +106,9 @@ button {
 }
 
 .hero-button {
+  display: block;
+  margin: 0 auto;
+
   color: var(--hero-text);
   background-color: var(--hover-focus-color);
   font-family: Roboto;
